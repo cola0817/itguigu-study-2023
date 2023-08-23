@@ -1,4 +1,5 @@
 import itguigu.study.dao.BookDao;
+import itguigu.study.dao.OrderDao;
 import itguigu.study.dao.UserDao;
 import itguigu.study.service.AdminService;
 import org.junit.jupiter.api.Test;
@@ -42,6 +43,24 @@ public class XMLTest {
         ApplicationContext context = new ClassPathXmlApplicationContext("bookDao.xml");
         BookDao bookDao = context.getBean("bookDaoInitOrDestroy", BookDao.class);
         System.out.println(bookDao);
+    }
+
+    @Test
+    public void Singleton(){
+        ApplicationContext context = new ClassPathXmlApplicationContext("orderDao.xml");
+        OrderDao orderDao01 = context.getBean("orderDaoBySingleton", OrderDao.class);
+        OrderDao orderDao02 = context.getBean("orderDaoBySingleton", OrderDao.class);
+        System.out.println(orderDao01);
+        System.out.println(orderDao02);
+    }
+
+    @Test
+    public void Prototype(){
+        ApplicationContext context = new ClassPathXmlApplicationContext("orderDao.xml");
+        OrderDao orderDao01 = context.getBean("orderDaoByPrototype", OrderDao.class);
+        OrderDao orderDao02 = context.getBean("orderDaoByPrototype", OrderDao.class);
+        System.out.println(orderDao01);
+        System.out.println(orderDao02);
     }
 
 
