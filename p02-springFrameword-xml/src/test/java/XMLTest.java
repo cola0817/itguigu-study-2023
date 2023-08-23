@@ -1,4 +1,6 @@
+import itguigu.study.customBean.HappyFactoryBean;
 import itguigu.study.dao.BookDao;
+import itguigu.study.dao.Happy;
 import itguigu.study.dao.OrderDao;
 import itguigu.study.dao.UserDao;
 import itguigu.study.service.AdminService;
@@ -63,5 +65,15 @@ public class XMLTest {
         System.out.println(orderDao02);
     }
 
+    @Test
+    public void factoryBean(){
+        ApplicationContext context = new ClassPathXmlApplicationContext("happyFactory.xml");
+
+        Happy happy = context.getBean("happyFactory", Happy.class);
+        System.out.println(happy);
+
+        HappyFactoryBean happyFactory = context.getBean("&happyFactory", HappyFactoryBean.class);
+        System.out.println(happyFactory);
+    }
 
 }
