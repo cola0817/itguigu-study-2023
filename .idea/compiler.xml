@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="p01-maven-quickstart" />
+        <module name="p0-springFrameword-xml" />
         <module name="p01-mybatisPlus-quickstart" />
         <module name="p03-maven-impl-colaShop-user" />
         <module name="p01-SSM-quickstart" />
