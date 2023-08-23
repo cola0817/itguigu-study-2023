@@ -6,4 +6,12 @@
     <bean id="bookDao"
           class="itguigu.study.dao.BookDao"
           factory-method="createBookDao"/>
+
+    <bean id="bookDaoInitOrDestroy" class="itguigu.study.dao.BookDao"
+          init-method="init"
+          destroy-method="destroy">
+        <constructor-arg name="id" value="1"/>
+        <constructor-arg name="bookName" value="悲惨世界"/>
+    </bean>
+
 </beans>

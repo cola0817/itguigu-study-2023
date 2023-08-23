@@ -36,4 +36,13 @@ public class XMLTest {
         UserDao userDaoDIBySetter = context.getBean("userDaoDIBySetter", UserDao.class);
         System.out.println(userDaoDIBySetter);
     }
+
+    @Test
+    public void InitOrDestroy(){
+        ApplicationContext context = new ClassPathXmlApplicationContext("bookDao.xml");
+        BookDao bookDao = context.getBean("bookDaoInitOrDestroy", BookDao.class);
+        System.out.println(bookDao);
+    }
+
+
 }
