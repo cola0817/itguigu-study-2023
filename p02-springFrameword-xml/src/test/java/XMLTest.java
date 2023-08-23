@@ -23,4 +23,17 @@ public class XMLTest {
         System.out.println("通过实例工厂创建 bean");
         System.out.println(adminService);
     }
+
+    @Test
+    public void DIByConstruct(){
+        ApplicationContext context = new ClassPathXmlApplicationContext("userDao.xml");
+        UserDao userDaoDIByConstruct = context.getBean("userDaoDIByConstruct", UserDao.class);
+        System.out.println(userDaoDIByConstruct);
+    }
+    @Test
+    public void DIBySetter(){
+        ApplicationContext context = new ClassPathXmlApplicationContext("userDao.xml");
+        UserDao userDaoDIBySetter = context.getBean("userDaoDIBySetter", UserDao.class);
+        System.out.println(userDaoDIBySetter);
+    }
 }
