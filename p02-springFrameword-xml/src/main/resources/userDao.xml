@@ -4,4 +4,16 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <bean id="userDao"
           class="itguigu.study.dao.UserDao"/>
+
+    <bean id="userDaoDIByConstruct" class="itguigu.study.dao.UserDao">
+        <constructor-arg name="id" value="1"/>
+        <constructor-arg name="name" value="cola"/>
+        <constructor-arg name="age" value="21"/>
+    </bean>
+
+    <bean id="userDaoDIBySetter" class="itguigu.study.dao.UserDao">
+        <property name="id" value="2"/>
+        <property name="name" value="cb"/>
+        <property name="age" value="23"/>
+    </bean>
 </beans>
