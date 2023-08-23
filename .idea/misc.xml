@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/p01-springBoot-quickstart/pom.xml" />
         <option value="$PROJECT_DIR$/p01-mybatisPlus-quickstart/pom.xml" />
         <option value="$PROJECT_DIR$/p02-maven-JBLJavaToWeb/pom.xml" />
+        <option value="$PROJECT_DIR$/p03-maven-impl-colaShop/pom.xml" />
       </list>
     </option>
   </component>

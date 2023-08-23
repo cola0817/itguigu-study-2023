@@ -4,5 +4,13 @@
     <file url="file://$PROJECT_DIR$/p01-springBoot-quickstart/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/p02-maven-JBLJavaToWeb/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/p02-maven-JBLJavaToWeb/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/p03-maven-impl-colaShop/p03-maven-impl-colaShop-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/p03-maven-impl-colaShop/p03-maven-impl-colaShop-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/p03-maven-impl-colaShop/p03-maven-impl-colaShop-order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/p03-maven-impl-colaShop/p03-maven-impl-colaShop-order/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/p03-maven-impl-colaShop/p03-maven-impl-colaShop-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/p03-maven-impl-colaShop/p03-maven-impl-colaShop-user/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/p03-maven-impl-colaShop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/p03-maven-impl-colaShop/src/main/resources" charset="UTF-8" />
   </component>
 </project>
