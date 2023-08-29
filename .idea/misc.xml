@@ -14,6 +14,8 @@
         <option value="$PROJECT_DIR$/p02-maven-JBLJavaToWeb/pom.xml" />
         <option value="$PROJECT_DIR$/p03-maven-impl-colaShop/pom.xml" />
         <option value="$PROJECT_DIR$/p0-springFrameword-xml/pom.xml" />
+        <option value="$PROJECT_DIR$/p02-springFrameword-xml/pom.xml" />
+        <option value="$PROJECT_DIR$/p02-springFrameword-xmlAndAnnotation/pom.xml" />
       </list>
     </option>
   </component>
