@@ -9,16 +9,17 @@
         <outputRelativeToContentRoot value="true" />
         <module name="p01-maven-quickstart" />
         <module name="p01-mybatisPlus-quickstart" />
-        <module name="p02-springFrameword-xml" />
         <module name="p03-maven-impl-colaShop-user" />
-        <module name="p01-SSM-quickstart" />
-        <module name="p01-springFrameword-quickstart" />
-        <module name="p01-mybatis-quickstart" />
+        <module name="p01-springFramework-quickstart" />
         <module name="p03-maven-impl-colaShop-order" />
         <module name="p02-maven-JBLJavaToWeb" />
+        <module name="p01-springBoot-quickstart" />
+        <module name="p02-springFramework-xml" />
+        <module name="p01-SSM-quickstart" />
+        <module name="p01-mybatis-quickstart" />
+        <module name="p03-springFramework-xmlAndAnnotation" />
         <module name="p03-maven-impl-colaShop-common" />
         <module name="p01-springMVC-quickstart" />
-        <module name="p01-springBoot-quickstart" />
       </profile>
     </annotationProcessing>
   </component>
