@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="p01-maven-quickstart" />
         <module name="p01-mybatisPlus-quickstart" />
+        <module name="p04-springFramework-Annotation" />
         <module name="p03-maven-impl-colaShop-user" />
         <module name="p01-springFramework-quickstart" />
         <module name="p03-maven-impl-colaShop-order" />

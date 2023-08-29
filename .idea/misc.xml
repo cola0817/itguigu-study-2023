@@ -16,6 +16,11 @@
         <option value="$PROJECT_DIR$/p0-springFrameword-xml/pom.xml" />
         <option value="$PROJECT_DIR$/p02-springFrameword-xml/pom.xml" />
         <option value="$PROJECT_DIR$/p02-springFrameword-xmlAndAnnotation/pom.xml" />
+        <option value="$PROJECT_DIR$/p02-springFramework-Annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/p04-springFramework-Annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/p03-springFramework-xmlAndAnnotation/pom.xml" />
+        <option value="$PROJECT_DIR$/p02-springFramework-xml/pom.xml" />
+        <option value="$PROJECT_DIR$/p01-springFramework-quickstart/pom.xml" />
       </list>
     </option>
   </component>
